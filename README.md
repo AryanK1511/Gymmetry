@@ -1,1 +1,1 @@
-# my-daily-journal
+# Gymmetry

@@ -1,7 +1,8 @@
-import { Stack } from "expo-router";
+import { Stack, Slot } from "expo-router";
 
+// ========== GENERAL LAYOUT ==========
 const Layout = () => {
-    return <Stack />
+    return <Slot />
 }
 
 export default Layout; 

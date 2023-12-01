@@ -1,9 +1,12 @@
 import { View, Text } from 'react-native';
+import { Link } from 'expo-router';
 
+// ========== HOMEPAGE ==========
 const Home = () => {
     return (
         <View>
-            <Text>Home</Text>
+            <Link href="/signup">Sign Up</Link>
+            <Link href="/login">Log In</Link>
         </View>
     )
 }

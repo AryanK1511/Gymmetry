@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native';
-import LoginForm from '../../components/LoginForm/LoginForm';
+import LoginForm from '../../components/Forms/LoginForm/LoginForm';
 
 // ========== LOGIN PAGE ==========
 const Login = () => {

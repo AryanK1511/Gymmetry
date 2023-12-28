@@ -10,11 +10,18 @@ import {
     Button 
 } from "react-native";
 
-// ========== SIGN UP FORM COMPONENT ==========
-const SignupForm = () => {
+// ========== LOG IN FORM COMPONENT ==========
+const LoginForm = () => {
   // Creating state variables
+  const [ fullName, setFullName ] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const handleFormSubmit = () => {
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Password:', password);
+  };
 
   return (
     <View>
@@ -26,4 +33,4 @@ const SignupForm = () => {
   );
 };
 
-export default SignupForm;
+export default LoginForm;
